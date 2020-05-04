@@ -38,7 +38,7 @@ bookmarkRouter
 
         store.bookmarks.push(bookmark);
 
-        logger.info(`Bookmark with id ${id} created`);
+        logger.info(`Bookmark with id ${bookmark.id} created`);
 
 
         res
